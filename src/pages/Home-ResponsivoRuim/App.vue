@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <meta name="viewport" content="width=device-width, inicial-scale=1.0" />
     <configuracoesPrincipais />
     <header>
       <img
@@ -128,7 +127,7 @@
           </p>
         </div>
       </div>
-      <img src="@/assets/maps.jpg" alt="map" />
+      <img src="@/assets/maps.png" alt="map" />
       <img id="circle3" src="@/assets/circulo.svg" alt="circle" />
     </section>
     <section id="formContact">
@@ -212,9 +211,6 @@ export default {
 
 <style>
 /* Configurações gerais (fora as configuraçõesPrincipais do outro componente) */
-html {
-  font-size: 62.5%;
-}
 
 body {
   overflow-x: hidden;
@@ -233,7 +229,7 @@ section {
 }
 
 p {
-  font-size: 2rem;
+  font-size: 20px;
 }
 
 img {
@@ -289,7 +285,7 @@ nav {
   margin-left: 35px;
   color: white;
   font-weight: 700;
-  font-size: 2.8rem;
+  font-size: 28px;
 }
 
 /* Parte do inicio */
@@ -304,17 +300,17 @@ nav {
 #title {
   color: #ffd666;
   font-weight: 800;
-  font-size: 6.4rem;
+  font-size: 64px;
 }
 .priParagraph {
-  font-size: 2.4rem;
+  font-size: 24px;
   color: white;
 }
 #intro button {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 2.8rem;
+  font-size: 28px;
   border-radius: 30px;
   margin: 30px;
   padding: 15px 0px;
@@ -392,7 +388,7 @@ nav {
 /* title */
 h3 {
   margin: 30px 80px 40px;
-  font-size: 3.8rem;
+  font-size: 38px;
   font-weight: 800;
   width: 100vw;
 }
@@ -429,7 +425,7 @@ h3 {
 }
 .fourParagraph {
   margin-left: 15px;
-  font-size: 2rem;
+  font-size: 20px;
   font-weight: 800;
 }
 
@@ -460,7 +456,7 @@ form input,
   width: auto;
   border-radius: 16px;
   margin: 8px;
-  font-size: 2.4rem;
+  font-size: 24px;
   font-weight: 800;
   vertical-align: super;
   border-style: none;
@@ -493,7 +489,7 @@ form input,
   text-align: center;
 }
 #contact a {
-  font-size: 2.4rem;
+  font-size: 24px;
   font-weight: 800;
   margin: 0px 15px;
 }
@@ -524,11 +520,5 @@ footer h3 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-
-@media (max-width: 768px) {
-  html {
-    font-size: 50%;
-  }
 }
 </style>

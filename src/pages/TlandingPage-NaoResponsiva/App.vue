@@ -132,7 +132,7 @@
         <h6 class="pg4">Sala com brinquedos e passa-tempo para as crianças!</h6>
       </section>
       <section id="mapa">
-        <img id="mp" src="@/assets/maps.jpg" alt="mapa" />
+        <img id="mp" src="@/assets/maps.png" alt="mapa" />
       </section>
     </section>
 

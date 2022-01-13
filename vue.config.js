@@ -6,19 +6,19 @@
 module.exports = {
   pages: {
     landingpage: {
-      entry: './src/pages/TlandingPage/main.js',
+      entry: './src/pages/TlandingPage-NaoResponsiva/main.js',
       template: 'public/index.html',
       title: 'landingpage',
       chunks: ['chunk-vendors', 'chunk-common', 'landingpage']
     },
     Home: {
-      entry: './src/pages/Home/main.js',
+      entry: './src/pages/Home-ResponsivoRuim/main.js',
       template: 'public/index.html',
       title: 'Home',
       chunks: ['chunk-vendors', 'chunk-common', 'Home']
     },
     Home2: {
-      entry: './src/pages/Home2/main.js',
+      entry: './src/pages/Home2-ResponsivoBom/main.js',
       template: 'public/index.html',
       title: 'Home2',
       chunks: ['chunk-vendors', 'chunk-common', 'Home2']
